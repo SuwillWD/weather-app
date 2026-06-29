@@ -1,0 +1,36 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A weather forcast site using Visual Crossing API.",
+  "homepage": "https://github.com/SuwillWD/weather-app#readme",
+  "bugs": {
+    "url": "https://github.com/SuwillWD/weather-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuwillWD/weather-app.git"
+  },
+  "license": "ISC",
+  "author": "SuwillWD",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.7",
+    "prettier": "^3.8.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.108.0",
+    "webpack-cli": "^7.0.3",
+    "webpack-dev-server": "^5.2.5",
+    "webpack-merge": "^6.0.1"
+  }
+}
