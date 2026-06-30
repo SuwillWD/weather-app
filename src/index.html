@@ -3,19 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css"
+      rel="stylesheet"
+    />
+
     <title>Weather App</title>
   </head>
   <body>
     <div class="home-page active">
       <h1>Weather App</h1>
       <div class="home-search">
-        <input type="text" id="home-input" placeholder="Search a place..." />
-        <button><i class="bx bx-search"></i></button>
+        <form id="home-form" novalidate>
+          <input
+            type="text"
+            id="home-input"
+            placeholder="Input your location"
+            required
+          />
+          <button type="submit"><i class="bx bx-search"></i></button>
+        </form>
       </div>
     </div>
 
     <div class="result-page">
       <h1>Result Page</h1>
     </div>
+
+    <footer>
+      <div>
+        Copyright <i class="bx bx-copyright"></i> SuwillWD
+        <a href="https://github.com/SuwillWD/weather-app"
+          ><i class="bxl bx-github"></i
+        ></a>
+      </div>
+    </footer>
   </body>
 </html>

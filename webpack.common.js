@@ -18,6 +18,10 @@ export default {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
+      {
+        test: /\.html$/i,
+        use: ['html-loader'],
+      },
     ],
   },
   plugins: [
