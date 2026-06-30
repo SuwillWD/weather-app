@@ -99,6 +99,7 @@ const handleUserRequests = (() => {
     const searchValue = document.getElementById('home-input').value;
     let newData = await processWeatherData(searchValue);
     console.log(newData.description);
+    // Todo - Add actual UI fucntion
     homeForm.reset();
   });
 })();
